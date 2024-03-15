@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Task</title>
+    <style>
+        #animation
+         {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-top: 15%;
+        }
+        .animt 
+        {
+            font-size: 100px;
+            animation: animt 5s infinite ;
+            position: relative;
+        }
+        @keyframes animt {
+          0% {
+            top: 0px; background: violet;
+
+          }
+          25% {
+            top: 200px; background: blue;
+          }
+          50% {
+            top: 50px; background: red;
+          }
+          100% {
+            top: 100px; background: yellow;
+          }
+        }
+      </style>
+    </head>
+    <body>
+    <div id="animation">
+      <div class="animt">F</div>
+      <div class="animt">A</div>
+      <div class="animt">R</div>
+      <div class="animt">H</div>
+      <div class="animt">A</div>
+      <div class="animt">N</div>
+      <div class="animt">A</div>
+      
+    </div>
+    </body>
+  </html>  
+</head>   
+</body>
+</html>
